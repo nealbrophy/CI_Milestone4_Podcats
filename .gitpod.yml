@@ -1,7 +1,8 @@
 image:
   file: .gitpod.dockerfile
 tasks:
- - init: . ${GITPOD_REPO_ROOT}/.theia/init_tasks.sh    
+ - init: . ${GITPOD_REPO_ROOT}/.theia/init_tasks.sh
+ - command: . ${GITPOD_REPO_ROOT}/alias.sh
 vscode:
   extensions:
     - ms-python.python@2019.8.30787:TnGEOx35GXMhyKLjDGz9Aw==
@@ -10,3 +11,5 @@ vscode:
     - eventyret.bootstrap-4-cdn-snippet@1.6.0:AtNd6GnbCYVpmUkOaFXs3A==
     - esbenp.prettier-vscode@4.3.0:jkl8NYpF/GzsahVpjggK0Q==
     - kevinglasson.cornflakes-linter@0.4.0:Sgfmpf9YWoF5/BDJu2xn0w==
+    - almenon.arepl@1.0.20:Uu7lIOwyLgmNWpTwCl/iqQ==
+    - littlefoxteam.vscode-python-test-adapter@0.3.16:tZ/6xOSSdKUaq6JCUVkD+A==
