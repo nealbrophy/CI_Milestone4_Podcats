@@ -1,39 +1,71 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Code Institute Milestone 4 - Full Stack Frameworks with Django
 
-Welcome USER_NAME,
+## Podcats
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### Project Description/Goals
+A web app for searching/reviewing/subscribing-to podcasts
 
-## Gitpod Reminders
+### Technologies used
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [gpodder.net](https://gpodder.net/)
+- [mygpoclient](https://github.com/gpodder/mygpoclient)
+- [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/Css/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Material Icons](https://material.io/resources/icons/?style=baseline)
+ 
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
+| AS A                                              | I WANT                                                 | SO THAT                                 |
+| ----------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------ |
+| Podcast consumer     | a way to search for podcasts by genre     | I can discover new podcasts |
+| Podcast consumer     | a way to filter podcasts by tags     | I refine the list of available  new podcasts |
+| Podcast consumer     | a way to bookmark podcasts     | I can come back later when I'm looking for something new to listen to |
+| Podcast consumer     | the ability to pay to unlock additional features    | I can get extra features |
+| Podcast consumer | to read reviews of podcasts | I can find out if a podcast is worth my attention |
+| Podcast consumer | to write reviews for podcasts I've listened to| I can help others find out if podcasts are worth listening to
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+### Strategy
 
-Another blue button should appear to click: *Open Browser*.
+### Scope
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Skeleton
+#### Wireframes
 
-A blue button should appear to click: *Make Public*,
+### Surface
 
-Another blue button should appear to click: *Open Browser*.
+### Current Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Future Features
 
-## Updates Since The Instructional Video
+## Deployment
+### Instructions for running locally
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Instructions for deploying to Heroku
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
+### Unit Tests
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Manual Tests
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Validation
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Python validation
 
---------
+### HTML validation
 
-Happy coding!
+### CSS validation
+
+### JS validation
+
+## Bugs
+
+### Squashed bugs
+
+### Open bugs
+
+## Credits/Acknowledgements

@@ -20,3 +20,5 @@ echo "alias gstatus='git status'" >> ~/.bashrc
 echo "alias gadd='git add'" >> ~/.bashrc
 echo "alias gcommit='git commit -m'" >> ~/.bashrc
 echo "alias grevert='git revert'" >> ~/.bashrc
+echo "Done"
+source ~/.bashrc
