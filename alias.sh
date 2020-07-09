@@ -19,6 +19,7 @@ echo "alias createsu='python3 manage.py createsuperuser'" >> ~/.bashrc
 echo "alias gstatus='git status'" >> ~/.bashrc
 echo "alias gadd='git add'" >> ~/.bashrc
 echo "alias gcommit='git commit -m'" >> ~/.bashrc
+echo "alias gpush='git push'" >> ~/.bashrc
 echo "alias grevert='git revert'" >> ~/.bashrc
 echo "Done"
 source ~/.bashrc
