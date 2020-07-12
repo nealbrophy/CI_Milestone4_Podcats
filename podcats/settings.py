@@ -25,6 +25,9 @@ SECRET_KEY = 'bvx2*t53nqfgxd0p2k_o*p26m&)ub_b5uz%ve5i#j_!1zsaq99'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LISTEN_KEY = os.getenv('LISTEN_API', '')
+LISTEN_BASE_URL = 'https://listen-api.listennotes.com/api/v2'
+
 ALLOWED_HOSTS = []
 
 
@@ -41,6 +44,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'home.apps.HomeConfig',
+    'search.apps.SearchConfig',
+    'pods.apps.PodsConfig',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +64,10 @@ ROOT_URLCONF = 'podcats.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
